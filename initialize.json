@@ -38,7 +38,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/groups",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "name",
@@ -52,7 +52,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "name",
@@ -78,7 +78,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "name",
@@ -104,7 +104,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "name",
@@ -130,7 +130,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "name",
@@ -156,7 +156,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "key",
@@ -176,7 +176,7 @@
       "headers": "",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
-      "dataMode": "urlencoded",      
+      "dataMode": "urlencoded",
       "data": [
         {
           "key": "key",
@@ -187,6 +187,26 @@
         {
           "key": "text",
           "value": "Half day off",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "key",
+          "value": "late",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "text",
+          "value": "Late",
           "type": "text",
           "enabled": true
         }
