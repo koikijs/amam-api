@@ -1,0 +1,196 @@
+{
+  "requests": [
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/absents",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "POST",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "name",
+          "value": "UXD",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "name",
+          "value": "Platform",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "name",
+          "value": "sideroad",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "group",
+          "value": "uxd",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "icon",
+          "value": "https://avatars2.githubusercontent.com/u/411486?v=3&s=460",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "name",
+          "value": "nab",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "group",
+          "value": "uxd",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "icon",
+          "value": "https://avatars0.githubusercontent.com/u/284550?v=3&s=460",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "name",
+          "value": "taka66",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "group",
+          "value": "platform",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "icon",
+          "value": "https://avatars1.githubusercontent.com/u/5513724?v=3&s=460",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "name",
+          "value": "ninja-inc",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "group",
+          "value": "platform",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "icon",
+          "value": "https://avatars2.githubusercontent.com/u/9511431?v=3&s=460",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "key",
+          "value": "paid",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "text",
+          "value": "Paid leave",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "urlencoded",      
+      "data": [
+        {
+          "key": "key",
+          "value": "half",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "text",
+          "value": "Half day off",
+          "type": "text",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
