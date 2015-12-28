@@ -4,6 +4,7 @@
       "required": true,
       "uniq": true,
       "regexp": "^[a-zA-Z\\s_-\\d]+$",
+      "invalid": "Only alphabets, lodash, hyphen, number, space are allowed",
       "desc": "Group name"
     },
     "members": {
@@ -21,6 +22,7 @@
       "required": true,
       "uniq": true,
       "regexp": "^[a-zA-Z\\s_-\\d\\.]+$",
+      "invalid": "Only alphabets, lodash, hyphen, number, space, dots are allowed",
       "desc": "Member name"
     },
     "group": {
@@ -34,7 +36,7 @@
   "stat": {
     "key": {
       "required": true,
-      "uniq": true      
+      "uniq": true
     },
     "text": {
       "required": true
@@ -43,13 +45,14 @@
   "absent": {
     "member": {
       "required": true,
-      "uniq": true,      
+      "uniq": true,
       "parent": "member.absents"
     },
     "date": {
       "required": true,
       "uniq": true,
-      "regexp": "^\\d\\d\\d\\d-\\d\\d-\\d\\d$"
+      "regexp": "^\\d\\d\\d\\d-\\d\\d-\\d\\d$",
+      "invalid": "Only YYYY-MM-DD format is allowed"
     },
     "stat": {
       "required": true,
@@ -58,11 +61,13 @@
     },
     "start": {
       "required": true,
-      "regexp": "^\\d\\d:\\d\\d$"
+      "regexp": "^\\d\\d:\\d\\d$",
+      "invalid": "Only HH:MM format is allowed"
     },
     "end": {
       "required": true,
-      "regexp": "^\\d\\d:\\d\\d$"
+      "regexp": "^\\d\\d:\\d\\d$",
+      "invalid": "Only HH:MM format is allowed"
     },
     "reason": {
       "regexp": "^[a-zA-Z\\s_-\\d\\.\\,\\'\\\"\\[\\]\\/]*$"
