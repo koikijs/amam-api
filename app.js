@@ -22,7 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', creator.router({
     mongo: process.env.MONGO_URL,
-    scheme: JSON.parse(routerJSON)
+    scheme: JSON.parse(routerJSON),
+    cors: true
 }));
 
 creator.doc({
