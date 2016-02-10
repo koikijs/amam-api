@@ -1,4 +1,13 @@
-## API Doc
+# AmAm API initializer
 
-http://amam-api.herokuapp.com/doc/
+## Install newman
 
+```sh
+npm i -g newman
+```
+
+## Initialize API data
+
+```sh
+newman -c initialize.json
+```

@@ -211,6 +211,26 @@
           "enabled": true
         }
       ]
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "key",
+          "value": "business",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "text",
+          "value": "Business Events",
+          "type": "text",
+          "enabled": true
+        }
+      ]
     }
   ]
 }
