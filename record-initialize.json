@@ -1,0 +1,105 @@
+{
+  "requests": [
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "DELETE"
+    },
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/absents",
+      "method": "DELETE"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "POST",
+      "data": [],
+      "name": "POST /groups",
+      "dataMode": "raw",
+      "data": "{\"name\": \"UXD\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/groups",
+      "method": "POST",
+      "data": [],
+      "name": "POST /groups",
+      "dataMode": "raw",
+      "data": "{\"name\": \"Platform\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"name\": \"sideroad\",\"group\": \"uxd\", \"icon\": \"https://avatars2.githubusercontent.com/u/411486?v=3&s=460\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"name\": \"nab\",\"group\": \"uxd\", \"icon\": \"https://avatars0.githubusercontent.com/u/284550?v=3&s=460\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"name\": \"taka66\",\"group\": \"platform\", \"icon\": \"https://avatars1.githubusercontent.com/u/5513724?v=3&s=460\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/members",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"name\": \"ninja-inc\",\"group\": \"platform\", \"icon\": \"https://avatars2.githubusercontent.com/u/9511431?v=3&s=460\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"key\": \"paid\",\"text\": \"Paid leave\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"key\": \"morning\",\"text\": \"Morning off\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"key\": \"afternoon\",\"text\": \"Afternoon off\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"key\": \"late\",\"text\": \"Late\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/stats",
+      "method": "POST",
+      "dataMode": "raw",
+      "data": "{\"key\": \"business\",\"text\": \"Business Events\"}"
+    }
+  ]
+}

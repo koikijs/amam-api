@@ -1,13 +1,7 @@
 # AmAm API initializer
 
-## Install newman
+## Usage
 
 ```sh
-npm i -g newman
-```
-
-## Initialize API data
-
-```sh
-newman -c initialize.json
+sh initialize.sh
 ```
