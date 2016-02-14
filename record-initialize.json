@@ -3,21 +3,25 @@
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/groups",
+      "name": "DELETE /groups",
       "method": "DELETE"
     },
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/members",
+      "name": "DELETE /members",
       "method": "DELETE"
     },
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/stats",
+      "name": "DELETE /stats",
       "method": "DELETE"
     },
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/absents",
+      "name": "DELETE /absents",
       "method": "DELETE"
     },
     {
@@ -25,7 +29,7 @@
       "url": "http://amam-api.herokuapp.com/groups",
       "method": "POST",
       "data": [],
-      "name": "POST /groups",
+      "name": "POST /groups - UXD",
       "dataMode": "raw",
       "data": "{\"name\": \"UXD\"}"
     },
@@ -34,7 +38,7 @@
       "url": "http://amam-api.herokuapp.com/groups",
       "method": "POST",
       "data": [],
-      "name": "POST /groups",
+      "name": "POST /groups - Platform",
       "dataMode": "raw",
       "data": "{\"name\": \"Platform\"}"
     },
@@ -42,6 +46,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
+      "name": "POST /members - sideroad",
       "dataMode": "raw",
       "data": "{\"name\": \"sideroad\",\"group\": \"uxd\", \"icon\": \"https://avatars2.githubusercontent.com/u/411486?v=3&s=460\"}"
     },
@@ -49,6 +54,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
+      "name": "POST /members - nab",
       "dataMode": "raw",
       "data": "{\"name\": \"nab\",\"group\": \"uxd\", \"icon\": \"https://avatars0.githubusercontent.com/u/284550?v=3&s=460\"}"
     },
@@ -56,6 +62,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
+      "name": "POST /members - taka66",
       "dataMode": "raw",
       "data": "{\"name\": \"taka66\",\"group\": \"platform\", \"icon\": \"https://avatars1.githubusercontent.com/u/5513724?v=3&s=460\"}"
     },
@@ -63,6 +70,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/members",
       "method": "POST",
+      "name": "POST /members - ninja-inc",
       "dataMode": "raw",
       "data": "{\"name\": \"ninja-inc\",\"group\": \"platform\", \"icon\": \"https://avatars2.githubusercontent.com/u/9511431?v=3&s=460\"}"
     },
@@ -70,6 +78,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
+      "name": "POST /stats - paid",
       "dataMode": "raw",
       "data": "{\"key\": \"paid\",\"text\": \"Paid leave\"}"
     },
@@ -77,6 +86,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
+      "name": "POST /stats - morning",
       "dataMode": "raw",
       "data": "{\"key\": \"morning\",\"text\": \"Morning off\"}"
     },
@@ -84,6 +94,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
+      "name": "POST /stats - afternoon",
       "dataMode": "raw",
       "data": "{\"key\": \"afternoon\",\"text\": \"Afternoon off\"}"
     },
@@ -91,6 +102,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
+      "name": "POST /stats - late",
       "dataMode": "raw",
       "data": "{\"key\": \"late\",\"text\": \"Late\"}"
     },
@@ -98,8 +110,17 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/stats",
       "method": "POST",
+      "name": "POST /stats - business",
       "dataMode": "raw",
       "data": "{\"key\": \"business\",\"text\": \"Business Events\"}"
+    },
+    {
+      "headers": "Content-Type: application/json\n",
+      "url": "http://amam-api.herokuapp.com/absents",
+      "method": "POST",
+      "name": "POST /absents - sideroad - 2016-01-01 - paid",
+      "dataMode": "raw",
+      "data": "{\"member\":\"sideroad\",\"date\":\"2016-01-01\",\"stat\":\"paid\",\"start\":\"09:00\",\"end\":\"17:00\",\"reason\":\"Happy new year\"}"
     }
   ]
 }

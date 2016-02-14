@@ -3,17 +3,20 @@
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
+      "name": "DELETE /admin/api/attributes",
       "method": "DELETE"
     },
     {
       "headers": "",
       "url": "http://amam-api.herokuapp.com/admin/api/models",
+      "name": "DELETE /admin/api/models",
       "method": "DELETE"
     },
     {
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/models",
       "method": "POST",
+      "name": "POST /admin/api/models - group",
       "dataMode": "raw",
       "data": "{\"name\": \"group\"}"
     },
@@ -21,6 +24,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/models",
       "method": "POST",
+      "name": "POST /admin/api/models - member",
       "dataMode": "raw",
       "data": "{\"name\": \"member\"}"
     },
@@ -28,6 +32,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/models",
       "method": "POST",
+      "name": "POST /admin/api/models - stat",
       "dataMode": "raw",
       "data": "{\"name\": \"stat\"}"
     },
@@ -35,6 +40,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/models",
       "method": "POST",
+      "name": "POST /admin/api/models - absent",
       "dataMode": "raw",
       "data": "{\"name\": \"absent\"}"
     },
@@ -42,6 +48,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - name",
       "dataMode": "raw",
       "data": "{\"name\":\"name\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"group\"}"
     },
@@ -49,6 +56,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - members",
       "dataMode": "raw",
       "data": "{\"name\":\"members\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"children\",\"relation\":\"member\",\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"group\"}"
     },
@@ -56,6 +64,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - owner",
       "dataMode": "raw",
       "data": "{\"name\":\"owner\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"instance\",\"relation\":\"member\",\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"group\"}"
     },
@@ -63,6 +72,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - icon",
       "dataMode": "raw",
       "data": "{\"name\":\"icon\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"group\"}"
     },
@@ -70,6 +80,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - name",
       "dataMode": "raw",
       "data": "{\"name\":\"name\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"member\"}"
     },
@@ -77,6 +88,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - group",
       "dataMode": "raw",
       "data": "{\"name\":\"group\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"parent\",\"relation\":\"group\",\"relationAttribute\":\"members\",\"regexp\":null,\"invalid\":null,\"model\":\"member\"}"
     },
@@ -84,6 +96,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - absents",
       "dataMode": "raw",
       "data": "{\"name\":\"absents\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"children\",\"relation\":\"absent\",\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"member\"}"
     },
@@ -91,6 +104,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - icon",
       "dataMode": "raw",
       "data": "{\"name\":\"icon\",\"uniq\":\"false\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"member\"}"
     },
@@ -98,6 +112,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - key",
       "dataMode": "raw",
       "data": "{\"name\":\"key\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":\"^[a-z]+$\",\"invalid\":null,\"model\":\"stat\"}"
     },
@@ -105,6 +120,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - text",
       "dataMode": "raw",
       "data": "{\"name\":\"text\",\"uniq\":\"false\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"stat\"}"
     },
@@ -112,6 +128,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - member",
       "dataMode": "raw",
       "data": "{\"name\":\"member\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"parent\",\"relation\":\"member\",\"relationAttribute\":\"absents\",\"regexp\":null,\"invalid\":null,\"model\":\"absent\"}"
     },
@@ -119,6 +136,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - date",
       "dataMode": "raw",
       "data": "{\"name\":\"date\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":\"^\\\\d\\\\d\\\\d\\\\d-\\\\d\\\\d-\\\\d\\\\d$\",\"invalid\":null,\"model\":\"absent\"}"
     },
@@ -126,6 +144,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - stat",
       "dataMode": "raw",
       "data": "{\"name\":\"stat\",\"uniq\":\"true\",\"required\":\"true\",\"type\":\"instance\",\"relation\":\"stat\",\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"absent\"}"
     },
@@ -133,6 +152,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - start",
       "dataMode": "raw",
       "data": "{\"name\":\"start\",\"uniq\":\"false\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":\"^\\\\d\\\\d:\\\\d\\\\d$\",\"invalid\":null,\"model\":\"absent\"}"
     },
@@ -140,6 +160,7 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - end",
       "dataMode": "raw",
       "data": "{\"name\":\"end\",\"uniq\":\"false\",\"required\":\"true\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":\"^\\\\d\\\\d:\\\\d\\\\d$\",\"invalid\":null,\"model\":\"absent\"}"
     },
@@ -147,12 +168,14 @@
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/api/attributes",
       "method": "POST",
+      "name": "POST /admin/api/attributes - reason",
       "dataMode": "raw",
       "data": "{\"name\":\"reason\",\"uniq\":\"false\",\"required\":\"false\",\"type\":\"string\",\"relation\":null,\"relationAttribute\":null,\"regexp\":null,\"invalid\":null,\"model\":\"absent\"}"
     },
     {
       "headers": "Content-Type: application/json\n",
       "url": "http://amam-api.herokuapp.com/admin/restart",
+      "name": "GET /admin/restart",
       "method": "GET"
     }
   ]
