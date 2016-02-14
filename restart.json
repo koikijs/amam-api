@@ -1,0 +1,10 @@
+{
+  "requests": [
+    {
+      "headers": "",
+      "url": "http://amam-api.herokuapp.com/admin/restart",
+      "name": "GET /admin/restart",
+      "method": "GET"
+    }
+  ]
+}

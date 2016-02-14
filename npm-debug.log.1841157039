@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sideroad/.node/v5.3.0/bin/node',
+1 verbose cli   '/Users/sideroad/.node/v5.3.0/bin/npm',
+1 verbose cli   'show',
+1 verbose cli   'newman',
+1 verbose cli   'version' ]
+2 info using npm@3.5.3
+3 info using node@v5.3.0
+4 silly mapToRegistry name newman
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry http://registry.npmjs.org/
+7 silly mapToRegistry uri http://registry.npmjs.org/newman
+8 verbose request uri http://registry.npmjs.org/newman
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 11:18:54 PM
+11 verbose request id 8796309ab0d57c76
+12 verbose etag "V8XUTWDYBCXYEHCAEZ5SRM2B"
+13 http request GET http://registry.npmjs.org/newman
+14 http 304 http://registry.npmjs.org/newman
+15 verbose headers { date: 'Sun, 14 Feb 2016 14:18:54 GMT',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   'cache-control': 'max-age=300',
+15 verbose headers   etag: '"V8XUTWDYBCXYEHCAEZ5SRM2B"',
+15 verbose headers   age: '79',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+15 verbose headers   'x-cache': 'HIT',
+15 verbose headers   'x-cache-hits': '1',
+15 verbose headers   'x-timer': 'S1455459534.990672,VS0,VE0',
+15 verbose headers   vary: 'Accept' }
+16 silly get cb [ 304,
+16 silly get   { date: 'Sun, 14 Feb 2016 14:18:54 GMT',
+16 silly get     via: '1.1 varnish',
+16 silly get     'cache-control': 'max-age=300',
+16 silly get     etag: '"V8XUTWDYBCXYEHCAEZ5SRM2B"',
+16 silly get     age: '79',
+16 silly get     connection: 'keep-alive',
+16 silly get     'x-served-by': 'cache-nrt6124-NRT',
+16 silly get     'x-cache': 'HIT',
+16 silly get     'x-cache-hits': '1',
+16 silly get     'x-timer': 'S1455459534.990672,VS0,VE0',
+16 silly get     vary: 'Accept' } ]
+17 verbose etag http://registry.npmjs.org/newman from cache
+18 verbose get saving newman to /Users/sideroad/.npm/registry.npmjs.org/newman/.cache.json
+19 verbose exit [ 0, true ]
+20 verbose stack Error: write EPIPE
+20 verbose stack     at Object.exports._errnoException (util.js:855:11)
+20 verbose stack     at exports._exceptionWithHostPort (util.js:878:20)
+20 verbose stack     at WriteWrap.afterWrite (net.js:763:14)
+21 verbose cwd /Users/sideroad/workspace/amam-api
+22 error Darwin 15.3.0
+23 error argv "/Users/sideroad/.node/v5.3.0/bin/node" "/Users/sideroad/.node/v5.3.0/bin/npm" "show" "newman" "version"
+24 error node v5.3.0
+25 error npm  v3.5.3
+26 error code EPIPE
+27 error errno EPIPE
+28 error syscall write
+29 error write EPIPE
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]
