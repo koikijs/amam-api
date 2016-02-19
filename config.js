@@ -140,7 +140,7 @@ module.exports = {
         name: 'date',
         uniq:'true',
         required:'true',
-        type:'string',
+        type:'date',
         relation: null,
         relationAttribute: null,
         regexp:'^\\d\\d\\d\\d-\\d\\d-\\d\\d$',
