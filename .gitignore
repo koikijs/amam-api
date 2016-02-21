@@ -2,3 +2,4 @@ node_modules
 public/doc
 tmp/*
 !.gitkeep
+npm-debug.log*
