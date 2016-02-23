@@ -22,8 +22,8 @@ module.exports = {
         type:'string',
         relation: null,
         relationAttribute: null,
-        regexp: null,
-        invalid: null,
+        regexp:'^[a-zA-Z\\d]+$',
+        invalid: 'Only alphabets and numbers are allowed',
         model:'group'
       },
       {
@@ -66,8 +66,8 @@ module.exports = {
         type:'string',
         relation: null,
         relationAttribute: null,
-        regexp: null,
-        invalid: null,
+        regexp:'^[a-zA-Z\\d\\-]+$',
+        invalid: 'Only alphabets and numbers and hiphen are allowed',
         model:'member'
       },
       {
@@ -111,7 +111,7 @@ module.exports = {
         relation: null,
         relationAttribute: null,
         regexp:'^[a-z]+$',
-        invalid: null,
+        invalid: 'Only alphabets are allowed',
         model:'stat'
       },
       {
@@ -144,7 +144,7 @@ module.exports = {
         relation: null,
         relationAttribute: null,
         regexp:'^\\d\\d\\d\\d-\\d\\d-\\d\\d$',
-        invalid: null,
+        invalid: 'Format should be YYYY-MM-DD',
         model:'absent'
       },
       {
@@ -166,7 +166,7 @@ module.exports = {
         relation: null,
         relationAttribute: null,
         regexp:'^\\d\\d:\\d\\d$',
-        invalid: null,
+        invalid: 'Format should be HH:MM',
         model:'absent'
       },
       {
@@ -177,7 +177,7 @@ module.exports = {
         relation: null,
         relationAttribute: null,
         regexp:'^\\d\\d:\\d\\d$',
-        invalid: null,
+        invalid: 'Format should be HH:MM',
         model:'absent'
       },
       {
