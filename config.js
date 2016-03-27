@@ -149,7 +149,7 @@ module.exports = {
       },
       {
         name: 'stat',
-        uniq:'true',
+        uniq:'false',
         required:'true',
         type:'instance',
         relation:'stat',
