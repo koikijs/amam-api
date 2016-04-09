@@ -2,25 +2,25 @@
   "requests": [
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/groups",
+      "url": "http://chaus.herokuapp.com/apis/amam/groups",
       "name": "DELETE /groups",
       "method": "DELETE"
     },
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/members",
+      "url": "http://chaus.herokuapp.com/apis/amam/members",
       "name": "DELETE /members",
       "method": "DELETE"
     },
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/stats",
+      "url": "http://chaus.herokuapp.com/apis/amam/stats",
       "name": "DELETE /stats",
       "method": "DELETE"
     },
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/absents",
+      "url": "http://chaus.herokuapp.com/apis/amam/absents",
       "name": "DELETE /absents",
       "method": "DELETE"
     }

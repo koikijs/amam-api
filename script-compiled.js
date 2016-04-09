@@ -14,7 +14,7 @@ config[target].map((uri, items) => {
   items.map(item => {
     results.push({
       headers: 'Content-Type: application/json\n',
-      url: 'http://amam-api.herokuapp.com' + uri,
+      url: 'http://chaus.herokuapp.com' + uri,
       method: 'POST',
       data: [],
       name: 'POST ' + uri,

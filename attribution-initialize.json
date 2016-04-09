@@ -2,13 +2,13 @@
   "requests": [
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/admin/api/attributes",
+      "url": "http://chaus.herokuapp.com/admin/api/attributes",
       "name": "DELETE /admin/api/attributes",
       "method": "DELETE"
     },
     {
       "headers": "",
-      "url": "http://amam-api.herokuapp.com/admin/api/models",
+      "url": "http://chaus.herokuapp.com/admin/api/models",
       "name": "DELETE /admin/api/models",
       "method": "DELETE"
     }

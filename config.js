@@ -2,20 +2,25 @@ module.exports = {
   attribution: {
     '/admin/api/models': [
       {
+        app: 'amam',
         name: 'group'
       },
       {
+        app: 'amam',
         name: 'member'
       },
       {
+        app: 'amam',
         name: 'stat'
       },
       {
+        app: 'amam',
         name: 'absent'
       }
     ],
     '/admin/api/attributes': [
       {
+        app: 'amam',
         name: 'name',
         uniq:'true',
         required:'true',
@@ -27,6 +32,7 @@ module.exports = {
         model:'group'
       },
       {
+        app: 'amam',
         name: 'members',
         uniq:'false',
         required:'false',
@@ -38,6 +44,7 @@ module.exports = {
         model:'group'
       },
       {
+        app: 'amam',
         name: 'owner',
         uniq:'false',
         required:'false',
@@ -49,6 +56,7 @@ module.exports = {
         model:'group'
       },
       {
+        app: 'amam',
         name: 'icon',
         uniq:'false',
         required:'false',
@@ -60,6 +68,7 @@ module.exports = {
         model:'group'
       },
       {
+        app: 'amam',
         name: 'name',
         uniq:'true',
         required:'true',
@@ -71,6 +80,7 @@ module.exports = {
         model:'member'
       },
       {
+        app: 'amam',
         name: 'group',
         uniq:'false',
         required:'false',
@@ -82,6 +92,7 @@ module.exports = {
         model:'member'
       },
       {
+        app: 'amam',
         name: 'absents',
         uniq:'false',
         required:'false',
@@ -93,6 +104,7 @@ module.exports = {
         model:'member'
       },
       {
+        app: 'amam',
         name: 'icon',
         uniq:'false',
         required:'true',
@@ -104,6 +116,7 @@ module.exports = {
         model:'member'
       },
       {
+        app: 'amam',
         name: 'key',
         uniq:'true',
         required:'true',
@@ -115,6 +128,7 @@ module.exports = {
         model:'stat'
       },
       {
+        app: 'amam',
         name: 'text',
         uniq:'false',
         required:'true',
@@ -126,6 +140,7 @@ module.exports = {
         model:'stat'
       },
       {
+        app: 'amam',
         name: 'member',
         uniq:'true',
         required:'true',
@@ -137,6 +152,7 @@ module.exports = {
         model:'absent'
       },
       {
+        app: 'amam',
         name: 'date',
         uniq:'true',
         required:'true',
@@ -148,6 +164,7 @@ module.exports = {
         model:'absent'
       },
       {
+        app: 'amam',
         name: 'stat',
         uniq:'false',
         required:'true',
@@ -159,6 +176,7 @@ module.exports = {
         model:'absent'
       },
       {
+        app: 'amam',
         name: 'start',
         uniq:'false',
         required:'true',
@@ -170,6 +188,7 @@ module.exports = {
         model:'absent'
       },
       {
+        app: 'amam',
         name: 'end',
         uniq:'false',
         required:'true',
@@ -181,6 +200,7 @@ module.exports = {
         model:'absent'
       },
       {
+        app: 'amam',
         name: 'reason',
         uniq:'false',
         required:'false',
@@ -194,7 +214,7 @@ module.exports = {
     ]
   },
   record: {
-    '/groups': [
+    '/apis/amam/groups': [
       {
         name: 'UXD'
       },
@@ -202,7 +222,7 @@ module.exports = {
         name: 'Platform'
       }
     ],
-    '/members': [
+    '/apis/amam/members': [
       {
         name: 'sideroad',
         group: 'uxd',
@@ -224,7 +244,7 @@ module.exports = {
         icon: 'https://avatars2.githubusercontent.com/u/9511431?v=3&s=460'
       }
     ],
-    '/stats': [
+    '/apis/amam/stats': [
       {
         key: 'paid',
         text: 'Paid leave'
@@ -246,7 +266,7 @@ module.exports = {
         text: 'Business Events'
       }
     ],
-    '/absents': [
+    '/apis/amam/absents': [
       {
         member:'sideroad',
         date:'2016-01-01',
