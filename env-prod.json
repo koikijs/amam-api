@@ -1,0 +1,14 @@
+
+{
+    "name": "local",
+    "values": [
+        {
+            "key": "url",
+            "value": "http://chaus.herokuapp.com",
+            "type": "text",
+            "name": "url"
+        }
+    ],
+    "synced": false,
+    "syncedFilename": ""
+}

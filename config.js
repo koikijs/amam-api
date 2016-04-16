@@ -1,6 +1,6 @@
 module.exports = {
   attribution: {
-    '/admin/api/models': [
+    '{{url}}/admin/api/models': [
       {
         app: 'amam',
         name: 'group'
@@ -18,7 +18,7 @@ module.exports = {
         name: 'absent'
       }
     ],
-    '/admin/api/attributes': [
+    '{{url}}/admin/api/attributes': [
       {
         app: 'amam',
         name: 'name',
@@ -214,7 +214,7 @@ module.exports = {
     ]
   },
   record: {
-    '/apis/amam/groups': [
+    '{{url}}/apis/amam/groups': [
       {
         name: 'UXD'
       },
@@ -222,7 +222,7 @@ module.exports = {
         name: 'Platform'
       }
     ],
-    '/apis/amam/members': [
+    '{{url}}/apis/amam/members': [
       {
         name: 'sideroad',
         group: 'uxd',
@@ -244,7 +244,7 @@ module.exports = {
         icon: 'https://avatars2.githubusercontent.com/u/9511431?v=3&s=460'
       }
     ],
-    '/apis/amam/stats': [
+    '{{url}}/apis/amam/stats': [
       {
         key: 'paid',
         text: 'Paid leave'
@@ -266,7 +266,7 @@ module.exports = {
         text: 'Business Events'
       }
     ],
-    '/apis/amam/absents': [
+    '{{url}}/apis/amam/absents': [
       {
         member:'sideroad',
         date:'2016-01-01',

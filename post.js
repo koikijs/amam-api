@@ -17,7 +17,7 @@ for( let uri in json) {
   items.map((item) => {
     results.push({
       headers: 'Content-Type: application/json\n',
-      url: 'http://chaus.herokuapp.com' + uri,
+      url: uri,
       method: 'POST',
       data: [],
       name: 'POST ' + uri,

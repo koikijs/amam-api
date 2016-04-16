@@ -1,0 +1,14 @@
+
+{
+    "name": "local",
+    "values": [
+        {
+            "key": "url",
+            "value": "http://localhost:3000",
+            "type": "text",
+            "name": "url"
+        }
+    ],
+    "synced": false,
+    "syncedFilename": ""
+}

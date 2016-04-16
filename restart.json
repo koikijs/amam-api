@@ -2,7 +2,7 @@
   "requests": [
     {
       "headers": "",
-      "url": "http://chaus.herokuapp.com/admin/restart",
+      "url": "{{url}}/admin/restart",
       "name": "GET /admin/restart",
       "method": "GET"
     }
