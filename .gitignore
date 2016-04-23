@@ -3,3 +3,4 @@ public/doc
 tmp/*
 !.gitkeep
 npm-debug.log*
+.DS_Store
