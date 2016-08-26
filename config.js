@@ -29,7 +29,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^[a-zA-Z\\d]+$',
         invalid: 'Only alphabets and numbers are allowed',
-        model:'group'
+        model:'amam-group'
       },
       {
         app: 'amam',
@@ -37,11 +37,11 @@ module.exports = {
         uniq: false,
         required: false,
         type:'children',
-        relation:'member',
+        relation:'amam-member',
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'group'
+        model:'amam-group'
       },
       {
         app: 'amam',
@@ -49,11 +49,11 @@ module.exports = {
         uniq: false,
         required: false,
         type:'instance',
-        relation:'member',
+        relation:'amam-member',
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'group'
+        model:'amam-group'
       },
       {
         app: 'amam',
@@ -65,7 +65,7 @@ module.exports = {
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'group'
+        model:'amam-group'
       },
       {
         app: 'amam',
@@ -77,7 +77,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^[a-zA-Z\\d\\-]+$',
         invalid: 'Only alphabets and numbers and hiphen are allowed',
-        model:'member'
+        model:'amam-member'
       },
       {
         app: 'amam',
@@ -85,11 +85,11 @@ module.exports = {
         uniq: false,
         required: false,
         type:'parent',
-        relation:'group',
+        relation:'amam-group',
         relationAttribute:'members',
         pattern: null,
         invalid: null,
-        model:'member'
+        model:'amam-member'
       },
       {
         app: 'amam',
@@ -97,11 +97,11 @@ module.exports = {
         uniq: false,
         required: false,
         type:'children',
-        relation:'absent',
+        relation:'amam-absent',
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'member'
+        model:'amam-member'
       },
       {
         app: 'amam',
@@ -113,7 +113,7 @@ module.exports = {
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'member'
+        model:'amam-member'
       },
       {
         app: 'amam',
@@ -125,7 +125,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^[a-z]+$',
         invalid: 'Only alphabets are allowed',
-        model:'stat'
+        model:'amam-stat'
       },
       {
         app: 'amam',
@@ -137,7 +137,7 @@ module.exports = {
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'stat'
+        model:'amam-stat'
       },
       {
         app: 'amam',
@@ -145,11 +145,11 @@ module.exports = {
         uniq: true,
         required: true,
         type:'parent',
-        relation:'member',
+        relation:'amam-member',
         relationAttribute:'absents',
         pattern: null,
         invalid: null,
-        model:'absent'
+        model:'amam-absent'
       },
       {
         app: 'amam',
@@ -161,7 +161,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^\\d\\d\\d\\d-\\d\\d-\\d\\d$',
         invalid: 'Format should be YYYY-MM-DD',
-        model:'absent'
+        model:'amam-absent'
       },
       {
         app: 'amam',
@@ -169,11 +169,11 @@ module.exports = {
         uniq: false,
         required: true,
         type:'instance',
-        relation:'stat',
+        relation:'amam-stat',
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'absent'
+        model:'amam-absent'
       },
       {
         app: 'amam',
@@ -185,7 +185,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^\\d\\d:\\d\\d$',
         invalid: 'Format should be HH:MM',
-        model:'absent'
+        model:'amam-absent'
       },
       {
         app: 'amam',
@@ -197,7 +197,7 @@ module.exports = {
         relationAttribute: null,
         pattern:'^\\d\\d:\\d\\d$',
         invalid: 'Format should be HH:MM',
-        model:'absent'
+        model:'amam-absent'
       },
       {
         app: 'amam',
@@ -209,7 +209,7 @@ module.exports = {
         relationAttribute: null,
         pattern: null,
         invalid: null,
-        model:'absent'
+        model:'amam-absent'
       }
     ]
   },
